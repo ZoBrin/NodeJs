@@ -1,0 +1,64 @@
+{
+	"id": "3aae614b-4396-8ecf-098a-d95f03719c5b",
+	"name": "NodeRestSample",
+	"description": "",
+	"order": [
+		"4c7594e5-e7d8-862b-7c3e-38563b222ce9",
+		"aaccb20d-a761-bf73-290d-830a419c59de"
+	],
+	"folders": [],
+	"timestamp": 1456668458365,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "4c7594e5-e7d8-862b-7c3e-38563b222ce9",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8081/api/readme",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "3aae614b-4396-8ecf-098a-d95f03719c5b",
+			"data": [
+				{
+					"key": "sampleData",
+					"value": "gggggg",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:8081/api/readme",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1456668458365,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aaccb20d-a761-bf73-290d-830a419c59de",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8081/api/PostSample",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "3aae614b-4396-8ecf-098a-d95f03719c5b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8081/api/PostSample",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1456668469517,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\"sampleData\": {\"firstName\": \"My First Name\"}}"
+		}
+	]
+}
